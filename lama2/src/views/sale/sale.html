@@ -1,0 +1,169 @@
+<link rel="stylesheet" type="text/css" href="src/views/sale/sale.css" />
+<div class="sale">
+	<header>
+		<p>辣妈商城</p>
+		<span></span>
+	</header>
+
+	<!-- 轮播图 -->
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<a href="">
+					<img src="http://s08.lmbang.com/M00/19/54/ecloA1ib5zSAHe2JAAFLlHn-Dzs621.jpg" alt="" />
+				</a>
+			</div>
+			<div class="swiper-slide">
+				<a href="">
+					<img src="http://s05.lmbang.com/M00/12/FF/ecloD1idbueATSGqAAOOLg1HVrc429.jpg" alt="" />
+				</a>
+			</div>
+			<div class="swiper-slide">
+				<a href="">
+					<img src="http://s07.lmbang.com/M00/E1/48/DpgiA1dVCc6ACiDsAAGfCMvSXMs267.jpg" alt="" />
+				</a>
+			</div>
+			<div class="swiper-slide">
+				<a href="">
+					<img src="http://s06.lmbang.com/M00/05/D9/ecloA1gzuvOANrD-AALL7wxxkQc089.jpg" alt="" />
+				</a>
+			</div>
+		</div>
+		<!-- 分页器 -->
+		<div class="swiper-pagination"></div>
+	</div>
+
+	<!-- 导航 -->
+	<nav>
+		<a ui-sref="sale_bbfs">
+			<section>
+				<span class="nav1"></span>
+				<p>宝宝服饰</p>
+			</section>
+		</a>
+		<a ui-sref="sale_ymjq">
+			<section>
+				<span class="nav2"></span>
+				<p>姨妈巾区</p>
+			</section>
+		</a>
+		<a ui-sref="sale_yczq">
+			<section>
+				<span class="nav3"></span>
+				<p>孕产专区</p>
+			</section>
+		</a>
+		<a ui-sref="sale_bsq">
+			<section>
+				<span class="nav4"></span>
+				<p>保税区</p>
+			</section>
+		</a>
+		<a ui-sref="sale_zyzq">
+			<section>
+				<span class="nav5"></span>
+				<p>直邮专区</p>
+			</section>
+		</a>
+	</nav>
+
+	<div class="banner1">
+		<span></span>
+		<p>巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉</p>
+	</div>
+
+	<div class="banner2">`
+		<section></section>
+		<section></section>
+	</div>
+
+	<div class="banner3">
+		<p>
+			<span class="span1">每日一秒</span>
+			<span class="span2">17:20:20</span>
+			<span>
+				<span class="span3">10:00  <span class="san"></span></span>
+
+			<span class="span4">10:00</span>
+			</span>
+		</p>
+
+		<div>
+			<section>
+				<span class="span1"></span>
+				<p><span>￥35　</span><span>2.0折</span></p>
+			</section>
+			<section>
+				<span class="span2"></span>
+				<p><span>￥35</span><span>2.0折</span></p>
+			</section>
+			<section>
+				<span class="span3"></span>
+				<p><span>￥35</span><span>2.0折</span></p>
+			</section>
+			<section>
+				<span class="span4"></span>
+				<p><span>￥35</span><span>2.0折</span></p>
+			</section>
+			<section>
+				<span class="span5"></span>
+				<p><span>￥35</span><span>2.0折</span></p>
+			</section>
+			<section>
+				<span class="span6"></span>
+				<p><span>￥35</span><span>2.0折</span></p>
+			</section>
+			<section>
+				<span class="span7"></span>
+				<p><span>￥35</span><span>2.0折</span></p>
+			</section>
+
+		</div>
+	</div>
+
+	<main class="main1">
+		<p></p>
+		<p></p>
+	</main>
+
+	<div class="nav">
+		<ul>
+			<li ng-click="change1()">今日上新</li>
+			<li ng-click="change2()">还有机会</li>
+			<li ng-click="change3()">即将开售</li>
+		</ul>
+	</div>
+
+	<!-- 今日上新 -->
+	<div class="jrsx">
+		<main class="main2">
+			<ul ng-repeat="x in pro">
+				<li ng-repeat="y in x.list">
+					<img src="{{y.banner}}" />
+					<section>
+						<span>{{y.spec_name}}</span>
+						<p>
+							<span>已售<span class="span1">{{y.sold_total_nums}} </span>件</span>
+							<span>{{y.notice}}</span>
+						</p>
+					</section>
+				</li>
+			</ul>
+		</main>
+
+		<p>——今日爆款——</p>
+		<main class="main3">
+			<ul ng-repeat="z in pro1">
+				<li ng-repeat="a in z.data">
+					<img src="{{a.goods_thumb}}" />
+					<section>
+						<p>{{a.goods_name}}</p>
+						<p>已售<span>{{a.sold_number}}</span>件</p>
+						<p>￥{{a.shop_price}}<span> ￥{{a.market_price}}</span></p>
+					</section>
+				</li>
+			</ul>
+		</main>
+
+	</div>
+</div>

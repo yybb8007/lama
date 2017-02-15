@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta charset="UTF-8">
+		<link rel="shortcut icon" type="image/x-icon" href="http://st.lmbang.com/ico.ico" />
+		<title>辣妈商城</title>
+		<link rel="stylesheet" type="text/css" href="src/common/reset.css" />
+		<link rel="stylesheet" type="text/css" href="src/common/main.css" />
+		<link rel="stylesheet" type="text/css" href="src/common/swiper-3.4.0.min.css" />
+		<script src="src/common/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="src/common/swiper-3.4.0.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="node_modules/angular/angular.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="node_modules/angular-ui-router/release/angular-ui-router.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="src/common/flexible.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+
+		<div ui-view>
+
+		</div>
+
+		<div id="tab-bar">
+			<a class="sale" ui-sref="sale">
+
+				<span>特卖</span>
+			</a>
+			<a class="market" ui-sref="market">
+
+				<span>商城</span>
+			</a>
+			<a class="cart" ui-sref="cart">
+
+				<span>购物车</span>
+			</a>
+			<a class="mine" ui-sref="mine">
+
+				<span>我的</span>
+			</a>
+		</div>
+		
+		<script src="index.js" type="text/javascript" charset="utf-8"></script>
+		<script src="src/views/sale/sale.js" type="text/javascript" charset="utf-8"></script>
+		<script src="src/views/market/market.js" type="text/javascript" charset="utf-8"></script>
+		<script src="src/views/cart/cart.js" type="text/javascript" charset="utf-8"></script>
+		<script src="src/views/mine/mine.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+	<script type="text/javascript">
+		$(function() {
+			$('#tab_bar a').on('click', function() {
+				console.log(1233);
+				for(var i = 0; i < $('#tab_bar a').length; i++) {
+					$(this).siblings().removeClass('click' + i);
+				}
+				$(this).addClass('click' + $(this).index());
+			})
+		})
+	</script>
+
+</html>

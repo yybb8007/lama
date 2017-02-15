@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+#tab-bar{
+	height: 1.466667rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 0.373333rem;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background: rgba(255,255,255,1);
+}
+#tab-bar a{
+	flex-basis: 25%;
+	height: 1.466667rem;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+#tab-bar a span{
+	text-align: center;
+	margin-bottom: 0.06rem;
+}
+
+#tab-bar .sale{
+	background: url(../img/sale.png) no-repeat;
+	background-size: 0.666667rem;
+	background-position: center 0.08rem;
+	
+}
+#tab-bar .sale.click0{
+	background: url(../img/sale1.png) no-repeat;
+	background-size: 0.666667rem;
+	background-position: center 0.08rem;
+}
+#tab-bar .market{
+	background: url(../img/market.png) no-repeat;
+	background-size: 0.666667rem;
+	background-position: center 0.08rem;
+	
+}
+#tab-bar .market.click1{
+	background: url(../img/market1.png) no-repeat;
+	background-size: 0.666667rem;
+	background-position: center 0.08rem;
+}
+#tab-bar .cart{
+	background: url(../img/cart.png) no-repeat;
+	background-size: 0.666667rem;
+	background-position: center 0.08rem;
+}
+#tab-bar .cart.click2{
+	background: url(../img/cart1.png) no-repeat;
+	background-size: 0.666667rem;
+	background-position: center 0.08rem;
+}
+#tab-bar .mine{
+	background: url(../img/mine.png) no-repeat;
+	background-size: 0.666667rem;
+	background-position: center 0.08rem;
+	
+}
+#tab-bar .mine.click3{
+	background: url(../img/mine1.png) no-repeat;
+	background-size: 0.666667rem;
+	background-position: center 0.08rem;
+}

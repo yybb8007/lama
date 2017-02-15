@@ -1,0 +1,353 @@
+@charset "utf-8";
+
+.sale{
+	overflow: hidden;
+	background: #f6f6f6;
+	font-size: 16px;
+	overflow-y: scroll;
+}
+.sale>header{
+	width: 100%;
+	text-align: center;
+	line-height: 1.2rem;
+	position: relative;
+	background: white;
+}
+.sale>header p{
+	font-size: 0.48rem;
+	color: #fc6496;
+}
+.sale>header span{
+	display: inline-block;
+	width: 0.533333rem;
+	height: 0.48rem;
+	background: url(../../img/menu.png) no-repeat;
+	background-size: cover;
+	position: absolute;
+	top: 0.4rem;
+	right: 0.4rem;
+}
+
+.sale>.swiper-container {
+    width: 100%;
+    height: 5.6rem;
+}  
+.sale>.swiper-container img{
+    height: 5.6rem;
+}
+
+.sale nav{
+	height: 2.346667rem;
+	width: 100%;
+	border-bottom: 0.026667rem solid #e3e3e3;
+	display: flex;
+	text-align: center;
+	align-items : center;
+	background: white;
+	font-size: 0.32rem;
+	color: #735660;
+}
+.sale>nav a{
+	flex-grow : 1;
+}
+.sale>nav section>span{
+	display: inline-block;
+	width: 0.826667rem;
+	height: 0.826667rem;
+	border-radius: 50%;
+	margin-bottom: 0.16rem;
+}
+.sale .nav1{
+	background: url(http://s06.lmbang.com/M00/29/DA/DpgiA1hkdSaAb3C0AABGJT1w4Aw217.png);
+	background-size: cover;
+}
+.sale .nav2{
+	background: url(http://s06.lmbang.com/M00/10/95/ecloA1hkdTKAckzJAAAM-VpeEXU036.png);
+	background-size: cover;
+}
+.sale .nav3{
+	background: url(http://s07.lmbang.com/M00/10/95/ecloA1hkdUaASZfqAAAKqsOO6ek235.png);
+	background-size: cover;
+}
+.sale .nav4{
+	background: url(http://s01.lmbang.com/M00/10/95/ecloA1hkdVWATOaNAAAH-UjKHk0596.png);
+	background-size: cover;
+}
+.sale .nav5{
+	background: url(http://s05.lmbang.com/M00/29/DA/DpgiA1hkdV-Af3zZAABHVWlJio8039.png);
+	background-size: cover;
+}
+
+.sale>.banner1{
+	height: 1.253333rem;
+	width: 100%;
+	background: white;
+}
+.sale>.banner1 span{
+	float: left;
+	display: inline-block;
+	width: 1.066667rem;
+	height: 0.4rem;
+	margin-top: 0.426667rem;
+	margin-left: 0.293333rem;
+	background: url(../../img/banner1.png);
+}
+.sale>.banner1 p{
+	float: left;
+	width: 7.733333rem;
+	height: 1.253333rem;
+	line-height: 1.253333rem;
+	white-space: pre;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin-left: 0.266667rem;
+	font-size: 0.293333rem;
+	color: #999094;
+}
+
+.sale>.banner2{
+	height: 2.4rem;
+	width: 100%;
+	margin: 0.266667rem auto;
+	position: relative;
+}
+.sale>.banner2 section{
+	height: 2.4rem;
+	width: 4.96rem;
+	position: absolute;
+	top: 0;
+}
+.sale>.banner2 section:first-of-type{
+	left: 0;
+	background: url(http://s02.lmbang.com/M00/29/DB/DpgiA1hkdq-ARUbFAACgoskSZeg387.jpg);
+	background-size: cover;
+}
+.sale>.banner2 section:last-of-type{
+	right: 0;
+	background: url(http://s04.lmbang.com/M00/10/95/ecloA1hkdReALerRAACLGmTEtO4147.jpg);
+	background-size: cover;
+}
+
+.sale>.banner3{
+	height: 4.4rem;
+	background: white;
+}
+.sale>.banner3>div{
+	display: flex;
+	overflow-x: scroll;
+}
+.sale>.banner3>p{
+	height: 1.28rem;
+	line-height: 1.28rem;
+	font-size: 0.32rem;
+	color: #322228;
+	margin: 0 0.4rem;
+}
+.sale>.banner3>p span{
+	font-size: 0.24rem;
+}
+.sale>.banner3>p>span:last-of-type{
+	float: right;
+}
+.sale>.banner3 p .span3{
+	display: inline-block;
+	width: 1.28rem;
+	height: 0.533333rem;
+	border-radius: 0.213333rem;
+	background: #fc6496;
+	color: #FFFFFF;
+	line-height: 0.533333rem;
+	text-align: center;
+	position: relative;
+}
+.sale>.banner3 p .span4{
+	display: inline-block;
+	width: 1.28rem;
+	height: 0.533333rem;
+	border: 0.026667rem solid #fc6496;
+	border-radius: 0.213333rem;
+	color: #fc6496;
+	line-height: 0.533333rem;
+	text-align: center;
+}
+.sale>.banner3>div>section{
+	width: 2.8rem;
+	float: left;
+	text-align: center;
+	border-right: 0.026667rem solid #e3e3e3;
+}
+.sale>.banner3>div>section p{
+	font-size: 0.293333rem;
+	color: #735660;
+}
+.sale>.banner3 section>span{
+	display: inline-block;
+	width: 2.4rem;
+	height: 2.4rem;
+	margin: 0 0.213333rem;
+}
+.sale>.banner3 .san{
+	display: inline-block;
+	border-top: 0.133333rem solid #fc6496;
+	border-right: 0.133333rem solid transparent;
+	border-bottom: 0.133333rem solid transparent;
+	border-left: 0.133333rem solid transparent;
+	position: absolute;
+	bottom: -0.24rem;
+	left: 0.533333rem;
+}
+.sale>.banner3 section .span1{
+	background: url(http://s06.lmbang.com/M00/7E/FF/ecloD1aVpjqAVCfhAAKwu5gXiHI840.jpg!c300x300x100.jpg) no-repeat;
+	background-size: cover;
+}
+.sale>.banner3 section .span2{
+	background: url(http://s02.lmbang.com/M00/08/C2/ecloD1hfOu6AZCGlAAOm7LMmgEE611.jpg!c300x300x100.jpg) no-repeat;
+	background-size: cover;
+}
+.sale>.banner3 section .span3{
+	background: url(http://s08.lmbang.com/M00/F8/68/ecloA1f9yH-ABM5JAAKrYQxCvB0278.jpg!c300x300x100.jpg) no-repeat;
+	background-size: cover;
+}
+.sale>.banner3 section .span4{
+	background: url(http://s07.lmbang.com/M00/21/D1/DpgiA1g_20CAS9g3AAKTHyBdQNQ730.jpg!c300x300x100.jpg) no-repeat;
+	background-size: cover;
+}
+.sale>.banner3 section .span5{
+	background: url(http://s05.lmbang.com/M00/D3/43/DpgiA1cq8SqATWlPAADuejHcivU314.jpg!c300x300x100.jpg) no-repeat;
+	background-size: cover;
+}
+.sale>.banner3 section .span6{
+	background: url(http://s01.lmbang.com/M00/BA/01/ecloA1cq8gKAbUsAAAJ8y2Or0U4260.jpg!c300x300x100.jpg) no-repeat;
+	background-size: cover;
+}
+.sale>.banner3 section .span7{
+	background: url(http://s02.lmbang.com/M00/E0/3D/ecloD1e2t-6ACoAmAASMfBBFcK8350.jpg!c300x300x100.jpg) no-repeat;
+	background-size: cover;
+}
+
+.sale>.main1{
+	height: 8.08rem;
+	background: white;
+	width: 100%;
+}
+.sale>.main1 p:first-of-type{
+	height: 3.92rem;
+	width: 100%;
+	margin-bottom: 0.24rem;
+	background: url(http://s06.lmbang.com/M00/33/8B/DpgiA1ihYpiAPq_IAAGHP719mNM698.jpg) no-repeat;
+	background-size: cover;
+}
+.sale>.main1 p:last-of-type{
+	height: 3.92rem;
+	width: 100%;
+	background: url(http://s07.lmbang.com/M00/E5/BA/ecloA1eykfSADJ08AAEG2n23Kc0576.jpg) no-repeat;
+	background-size: cover;
+}
+
+.sale>.nav{
+	height: 1.12rem;
+	width: 100%;
+	margin-top: 0.24rem;
+	background: #FFFFFF;
+}
+.sale>.nav ul{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 1.12rem;
+}
+.sale>.nav li{
+	height: 1.12rem;
+	line-height: 1.12rem;
+}
+.sale>.nav li:first-of-type{
+	color: #fc6496;
+	border-bottom: 0.053333rem solid #fc6496;
+}
+
+.sale>.jrsx{
+	margin-bottom: 1.466667rem;
+}
+.sale>.jrsx .main2 li{
+	height: 5.92rem;
+	width: 100%;
+	margin-bottom: 0.266667rem;
+	background: #FFFFFF;
+	font-size: 0;
+}
+.sale>.jrsx .main2 img{
+	height: 4.8rem;
+}
+.sale>.jrsx .main2 li>section{
+	margin: 0 0.4rem;
+	height: 1.12rem;
+	line-height: 1.12rem;
+	position: relative;
+}
+.sale>.jrsx .main2 li>section>span:first-of-type{
+	font-size: 0.346667rem;
+	color: #322228;
+	float: left;
+}
+.sale>.jrsx .main2 li>section>p{
+	font-size: 0.293333rem;
+	color: #999094;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.sale>.jrsx .main2 .span1{
+	font-size: 0.24rem;
+	color: #fc719f;
+}
+
+.sale>.jrsx>p{
+	margin-top: 0.48rem;
+	height: 0.933333rem;
+	line-height: 0.933333rem;
+	font-size: 0.293333rem;
+	color: #b0aaad;
+	text-align: center;	
+}
+
+.sale>.jrsx .main3{
+	font-size: 0.426667rem;
+	color: black;
+}
+.sale>.jrsx .main3 li{
+	height: 3.733333rem;
+	width: 100%;
+	background: #FFFFFF;
+	border-bottom: 0.026667rem solid #e3e3e3;
+}
+.sale>.jrsx .main3 img{
+	float: left;
+	width: 2.8rem;
+	margin: 0.32rem;
+}
+.sale>.jrsx .main3 section{
+	float: left;
+	width: 6.266667rem;
+	font-size: 0.293333rem;
+	color: #999094;
+}
+.sale>.jrsx .main3 p:first-of-type{
+	font-size: 0.32rem;
+	color: #735660;
+	line-height: 0.506667rem;
+	margin-top: 0.266667rem;
+	margin-bottom: 0.4rem;
+}
+.sale>.jrsx .main3 p:last-of-type{
+	margin-top: 0.586667rem;
+}
+.sale>.jrsx .main3 p:last-of-type span{
+	text-decoration: line-through;
+}
+
+
+
+
+
+
+
